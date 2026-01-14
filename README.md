@@ -15,13 +15,13 @@ This project implements a decentralized federated learning (DFL) framework acros
 - Simulated CPU nodes for rapid testing
 
 ## Structure
-- `jetson_node/`: CNN models, projection, and comms for Jetson
-- `akida_node/`: Placeholder for Akida integration
+- `jetson_nodes/`: CNN models, projection, and comms for Jetson
+- `akida_nodes/`: Placeholder for Akida integration
 - `docs/`: Contains device compatibility explanation (PDF)
 
 ## Getting Started
 ```bash
 git clone https://github.com/YOUR_USERNAME/DFL-Heterogeneous.git
-cd jetson_node
+cd jetson_nodes
 pip install -r requirements.txt
 python main.py
