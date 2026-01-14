@@ -2,7 +2,7 @@
 
 ## 1. Loss under Disconnections (5 Heterogeneous Nodes)
 
-![Loss](5nodes%20loss%20average%20under%20Disconnections.PNG)
+![Loss](5nodes loss average under Disconnections.PNG)
 
 This figure shows the average training loss across a decentralized network under intermittent connectivity.
 Orange dashed lines indicate node disconnections, while green dashed lines indicate reconnections.
