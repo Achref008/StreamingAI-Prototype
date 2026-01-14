@@ -32,3 +32,6 @@ python main.py
 # Run the Akida node
 cd ../akida_nodes
 python main.py
+
+![Accuracy](Images/Real image of the Testbed.PNG)
+
