@@ -10,7 +10,7 @@ Each node trains on its own local image data and periodically **exchanges raw mo
 
 ---
 
-## Why this project?
+## Why?
 
 Real-world edge AI deployments often face:
 
@@ -22,7 +22,7 @@ This project demonstrates how decentralized, peer-to-peer learning can continue 
 
 ---
 
-## How it works (one learning loop)
+## How it works?
 
 Each node repeatedly executes the following steps:
 
