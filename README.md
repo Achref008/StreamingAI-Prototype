@@ -66,6 +66,7 @@ All nodes **predict images locally** and **collaborate by sharing parameter upda
 
 ## Repository structure
 
+```text
 StreamingAI-Prototype/
 │
 ├── jetson_nodes/
@@ -91,16 +92,21 @@ StreamingAI-Prototype/
 │
 └── README.md
 
+---
 
 ## Target Devices
 -  NVIDIA Jetson Nano/Xavier/Orin (PyTorch-compatible)
 - BrainChip Akida neuromorphic boards (via projected SNN/CNN)
 - Simulated CPU nodes for rapid testing
 
+---
+
 ## Structure
 - `jetson_nodes/`: CNN models, projection, and comms for Jetson
 - `akida_nodes/`: Placeholder for Akida integration
 - `docs/`: Contains device compatibility explanation (PDF)
+
+---
 
 ## Getting Started
 git clone https://github.com/Achref008/StreamingAI-Prototype.git
@@ -108,9 +114,13 @@ cd StreamingAI-Prototype
 
 pip install -r requirements.txt
 
+---
+
 # Run a Jetson node
 cd jetson_nodes
 python main.py
+
+---
 
 # Run the Akida node
 cd ../akida_nodes
