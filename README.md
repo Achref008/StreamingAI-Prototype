@@ -12,7 +12,7 @@ Each node trains on its own local image data and periodically **exchanges raw mo
 
 ## Why?
 
-Real-world edge AI deployments often face:
+AI edge devices deployments often face:
 
 - Distributed devices with **private or local-only data**
 - **Unstable networks** (timeouts, dropouts, intermittent connectivity)
