@@ -32,10 +32,10 @@ Each node repeatedly executes the following steps:
 4. **Compute parameter updates (deltas)** relative to the previous round
 5. **Serialize & send** updates to neighboring nodes via P2P TCP sockets
 6. **Receive** updates from peers
-7. **Project / align parameters** if communicating across CNN ↔ SNN architectures
-8. **Aggregate updates** using Metropolis-Hastings gossip weights
-9. **Apply momentum-stabilized update** to both the local and shared model
-10. Continue training with improved weights
+7. **Project / align parameters** if communicating across CNN <-> SNN architectures
+9. **Aggregate updates** using Metropolis-Hastings gossip weights
+10. **Apply momentum-stabilized update** to both the local and shared model
+11. Continue training with improved weights
 
 **Result:** all nodes predict images locally and **learn together**, while keeping raw data private.
 
